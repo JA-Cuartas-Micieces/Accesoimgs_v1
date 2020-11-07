@@ -47,7 +47,7 @@ class TkWindow:
                 
 class MainWindow:
     def __init__(self,openft):
-        self.cp = str.replace(self.f.__code__.co_filename,"\\","\\\\")[:-17]
+        self.cp = str.replace(self.f.__code__.co_filename,"\\","\\\\")[:-13]
         self.br=TkWindow(self.cp)
         pa.FAILSAFE=True
         with open(self.cp+"inputs.json") as f:
@@ -123,7 +123,7 @@ class MainWindow:
         return g
 
     def try_imgs(self,filename,clicksnumber,delay,positioner,checkorclick,skipable):
-        h=[el for el in os.listdir(self.cp[:-2]) if all([el.startswith("Accesoimgs")==True,el.endswith(".py")!=True])]
+        h=[el for el in os.listdir(self.cp[:-1]) if all([el.startswith("Accesoimgs")==True,el.endswith(".py")!=True])]
         h.reverse()
         origcp=copy.copy(self.cp)
         rootcp=copy.copy(self.cp)
@@ -161,4 +161,3 @@ except:
 
 if __name__=="__main__":
     app=MainWindow(1)
-
