@@ -1,0 +1,1 @@
+x=msgbox("Instale Python, vigile que las carpetas de resultados est"+ChrW(225)+"n creadas y que los archivos de los scripts y las im"+ChrW(225)+"genes se encuentren en las carpetas correctas, que tenga la misma versi"+ChrW(243)+"n de Selenium Chromedriver que la del navegador Chrome, e instaladas todas las librer"+ChrW(237)+"as necesarias.", 0, "Error")
