@@ -2,7 +2,8 @@
 """
 Created on Thu Jul 22 16:46:07 2020
 
-Copyright 2020 Javier A. Cuartas Micieces
+Copyright 2020 Javier Alejandro Cuartas Micieces
+https://github.com/JA-Cuartas-Micieces
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in 
 the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of 
